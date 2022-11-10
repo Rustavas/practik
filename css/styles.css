@@ -1,21 +1,21 @@
 :root {
   --main-text-color: #8f95a5;
   --second-text-color: #263238;
+  --main-bg-color: #ffffff;
+  --second-bg-color: #F5F5F5;
   --title-color: #000;
   --main-btn-color: #fff;
-  --second-bg-color: #F5F5F5;
   --second-btn-color: #263238;
   --hover-btn-color: #E8E8E8;
-  --main-btn-text-color: #fff;
+  --contact-btn-color: #8f95a5;
+  --contact-btn-bg-color: #ffffff;
+  --contact-sub-btn-color: #ffffff;
   --border-btn-color: #263238;
   --logo-brit-color: #000;
   --logo-lex-color: #939393;
   --hover-logo-color: #F5511D;
   --digitals-color: #2A3246;
-  --period-text-color: #546269;
-  --contact-btn-color: #8f95a5;
-  --contact-btn-bg-color: #ffffff;
-  --contact-sub-btn-color: #ffffff;
+  --period-text-color: #546269; 
 }
 body {
   font-family: poppins, sans-serif;
@@ -219,3 +219,7 @@ letter-spacing: 0.02em;
 color: var(--main-text-color);
 text-decoration: none;
 }
+.footer-link:hover,
+.footer-link:focus {
+  color: var(--second-text-color)
+} 
