@@ -1,0 +1,221 @@
+:root {
+  --main-text-color: #8f95a5;
+  --second-text-color: #263238;
+  --title-color: #000;
+  --main-btn-color: #fff;
+  --second-bg-color: #F5F5F5;
+  --second-btn-color: #263238;
+  --hover-btn-color: #E8E8E8;
+  --main-btn-text-color: #fff;
+  --border-btn-color: #263238;
+  --logo-brit-color: #000;
+  --logo-lex-color: #939393;
+  --hover-logo-color: #F5511D;
+  --digitals-color: #2A3246;
+  --period-text-color: #546269;
+  --contact-btn-color: #8f95a5;
+  --contact-btn-bg-color: #ffffff;
+  --contact-sub-btn-color: #ffffff;
+}
+body {
+  font-family: poppins, sans-serif;
+  font-size: 16px;
+  color: var(--main-text-color);
+  background-color: var(--main-bg-color);
+}
+
+.logo {
+  font-size: 36;
+  line-height: 1.5;
+  color: var(--logo-brit-color);
+  text-decoration: none;
+  cursor: pointer;
+  align-items: center;
+}
+.logo:hover,
+.logo:focus,
+.logo-lex:hover,
+.logo-lex:focus {
+  color: var(--hover-logo-color);
+}
+.logo-lex {
+  color: var(--logo-lex-color);
+} 
+
+.link {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.5;
+  color: var(--second-text-color);
+  text-decoration: none;
+  cursor: pointer;
+}
+.link:hover,
+.link:focus {
+  color: var(--main-text-color);
+}
+
+.btn {
+  font-family: inherit;
+  line-height: 1.5;
+  cursor: pointer;
+}
+.btn:hover,
+.btn:focus {
+  background-color: var(--hover-btn-color); 
+}
+.header-btn {
+  font-size: 20px;
+  background-color: var(--main-bg-color);
+  text-align: center;
+  letter-spacing: 0.03em;
+  border-width: 2px;
+  border-color: var(--border-btn-color);
+  border-radius: 10px;
+}
+
+/*-----Hero----- */
+.hero-title {
+font-size: 64px;
+line-height: 1.25;
+color: var(--title-color);
+}
+.title {
+  font-weight: 600;
+}
+.hero-text {
+font-size: 24px;
+line-height: 1.5;
+color: var(--main-text-color);
+}
+.hero-btn {
+  font-family: inherit;
+  font-size: 36px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-btn-text-color);
+  background-color: var(--second-btn-color);
+}
+
+/* -----Skills----- */
+.skills-title {
+  font-size: 48px;
+  line-height: 1.5;
+  color: var(--title-color);
+  text-align: center;
+}
+.list {
+  font-family: inherit;
+  list-style: none;
+}
+.skills-item {
+  background-color: var(--second-bg-color);
+}
+.skills-tit {
+font-size: 30px;
+line-height: 1.5;
+color: var(--second-text-color);
+}
+.skills-text {
+line-height: 1.5;
+color: var(--main-text-color);
+}
+.skills-btn {
+  color: var(--main-btn-color);
+  background-color: var(--second-btn-color);
+}
+.skills-link {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.5;
+}
+/* -----About----- */
+.about-title {
+  font-size: 48px;
+  line-height: 1.5;
+  color: var(--title-color);
+}
+.about-text {
+  font-size: 20px;
+line-height: 1.8;
+color: var(--main-text-color);
+}
+.about-list {
+font-weight: 600;
+font-size: 48px;
+line-height: 1.5;
+color: var(--digitals-color);
+}
+.item {
+font-size: 20px;
+line-height: 1.5;
+color: var(--main-text-color);
+}
+
+/* -----Pricing----- */
+.pricing-title {
+font-size: 48px;
+line-height: 1.5;
+color: var(--title-color);
+text-align: center;
+}
+.pricing-tit {
+font-size: 30px;
+line-height: 1.6;
+text-transform: capitalize;
+color: var(--second-text-color);
+}
+.pricing-text {
+font-size: 20px;
+line-height: 1.5;
+color: var(--main-text-color);
+}
+.pricing-price {
+font-size: 24px;
+line-height: 36px;
+text-align: center;
+color: var(--second-text-color);
+}
+.period {
+font-size: 18px;
+line-height: 27px;
+text-align: center;
+color: var(--period-text-color);
+}
+
+/* -----Contact----- */
+.contact-title {
+font-size: 48px;
+line-height: 1.5;
+color: var(--title-color);
+}
+.contact-text {
+font-size: 20px;
+line-height: 1.5;
+color: var(--main-text-color);
+}
+.contact-mail {
+line-height: 1.8;
+color: var(--contact-btn-color);
+background-color: var(--contact-btn-bg-color)
+}
+.contact-sub {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.5;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--contact-sub-btn-color);
+background-color: var(--second-btn-color)
+}
+
+/* -----Footer----- */
+.footer-link {
+font-size: 24px;
+line-height: 1.5;
+align-items: center;
+letter-spacing: 0.02em;
+color: var(--main-text-color);
+text-decoration: none;
+}
